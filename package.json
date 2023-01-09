@@ -1,0 +1,34 @@
+{
+  "name": "node-typescript-api",
+  "version": "1.0.0",
+  "description": "Typescript Nodejs API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbathat/node-typescript-api-wind.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Tabatha Pradier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbathat/node-typescript-api-wind/issues"
+  },
+  "homepage": "https://github.com/tbathat/node-typescript-api-wind#readme",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.2"
+  }
+}
