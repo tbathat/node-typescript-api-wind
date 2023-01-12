@@ -106,3 +106,5 @@ Esse está sendo o meu maior desafio de desenvolvimento de uma aplicação ponta
 - Testes de ponta a ponta com o front-end consumindo a API
 - Rate limit
 - Documentação com Open API
+
+#### Tabatha Pradier, 2023.
