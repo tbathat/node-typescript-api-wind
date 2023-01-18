@@ -5,7 +5,7 @@ export interface StormGlassPointSource {
 }
 
 export interface StormGlassPoint {
-    readonly time: string;
+    time: string;
     readonly waveHeight: StormGlassPointSource;
     readonly waveDirection: StormGlassPointSource;
     readonly swellDirection: StormGlassPointSource;
@@ -76,4 +76,5 @@ private normalizeResponse(
         point.windDirection?.[this.stormGlassAPISource] &&
         point.windSpeed?.[this.stormGlassAPISource]
         );
-    }}
+    }
+}
