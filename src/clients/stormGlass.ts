@@ -1,4 +1,4 @@
-import { InternalError } from '@src/util/errors/internal.error';
+import { InternalError } from '@src/util/errors/internal-error';
 import axios, { AxiosStatic } from 'axios';
 
 export interface StormGlassPointSource {
